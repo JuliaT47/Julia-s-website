@@ -1,0 +1,123 @@
+body {
+  font-size: 16px;
+  font-family: Raleway;
+  background-color: black;
+  color: bisque;
+  overflow-x: hidden;
+  width: 100%;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: 0 0 6px black;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(235, 154, 4);
+  outline: 1px solid rgb(235, 154, 4);
+  border-radius: 10px;
+}
+section,
+footer {
+  overflow: hidden;
+  width: 100%;
+  max-width: 740px;
+  margin: auto;
+}
+.welcome {
+  height: 100vh;
+  position: relative;
+}
+
+.welcome__message {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+}
+h1 {
+  font-size: 150px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.icon_circle {
+  position: absolute;
+  fill: bisque;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(0, -50%);
+}
+.icon_phone,
+.icon_email {
+  fill: bisque;
+}
+a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 20px;
+}
+li {
+  list-style-type: none;
+}
+.form_section {
+  display: flex;
+  flex-direction: column;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 30px;
+}
+textarea,
+input {
+  font-family: Raleway;
+  background-color: transparent;
+  border: unset;
+  outline: unset;
+  color: grey;
+  border-bottom: 1.5px solid bisque;
+  resize: unset;
+  padding-bottom: 10px;
+}
+.submit_btn button,
+.cv-btn {
+  background: transparent;
+  border: 1.5px solid bisque;
+  border-radius: 20px;
+  padding: 10px 35px;
+  color: bisque;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.submit_btn button:hover,
+.cv-btn:hover {
+  background-color: bisque;
+  color: black;
+}
+footer {
+  display: flex;
+  padding: 6rem 0;
+  justify-content: space-between;
+}
+.socials {
+  display: flex;
+}
+.contact {
+  display: flex;
+  gap: 20px;
+}
+canvas {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
