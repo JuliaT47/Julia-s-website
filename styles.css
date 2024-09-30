@@ -55,7 +55,9 @@ h2 {
   transform: translate(0, -50%);
 }
 .icon_phone,
-.icon_email {
+.icon_email,
+.icon-github {
+  fill: currentColor;
   fill: bisque;
 }
 a {
