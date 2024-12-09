@@ -84,7 +84,7 @@ input {
   background-color: transparent;
   border: unset;
   outline: unset;
-  color: grey;
+  color: bisque;
   border-bottom: 1.5px solid bisque;
   resize: unset;
   padding-bottom: 10px;
@@ -122,4 +122,23 @@ canvas {
   right: 0;
   top: 0;
   z-index: -1;
+}
+.web-btn {
+  width: 60px;
+  background: transparent;
+  border: 1.5px solid bisque;
+  border-radius: 20px;
+  padding: 10px;
+  color: bisque;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-left: 10px;
+}
+.web-btn:hover {
+  background-color: bisque;
+  color: black;
+}
+.web-link {
+  font-size: 20px;
+  margin: 10px 0 10px 0;
 }
