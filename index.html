@@ -48,7 +48,7 @@
           </li>
           <li class="web-link">
             3. React Task Orginiser<a
-              href="https://juliat47.github.io/ReactTaskOrginiser/"
+              href="https://juliat47.github.io/TaskOrganiserReact/"
               target="_blank"
               rel="noopener noreferrer"
               ><button class="web-btn">Visit</button></a
@@ -70,11 +70,22 @@
       <form
         class="contact_form"
         id="contact-form"
-        method="post"
-        action="https://script.google.com/macros/s/AKfycbz-MOw1KYJkTVcwXYldF_AiUHehl1GCwN9tamwfDb0ydfZd4ey73oyAIKmMJz4LRrnj/exec"
+        action="https://formspree.io/f/mnnjjogr"
+        method="POST"
       >
-        <input type="text" id="email" placeholder="Your email" />
-        <textarea id="message" placeholder="Your message"></textarea>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message"
+          required
+        ></textarea>
         <div class="submit_btn">
           <button type="submit">Send</button>
         </div>
